@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="top-bar flex-wrap text-center gap-3 py-3 d-flex justify-content-around">
+        <div class="details flex-wrap d-flex gap-5">
+            <div class="phone text-white small"><i class="fa-solid fa-phone"></i> (123) 456-789-1230</div>
+            <div class="email text-white small"><i class="fa-solid fa-envelope"></i> info.colorlib@gmail.com</div>
+        </div>
+        <div class="icons text-white d-flex gap-4 small">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-glasses"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </section>
+    <nav>
+        <nav class="navbar py-3 navbar-expand-lg">
+            <div class="container-fluid container">
+                <a class="navbar-brand" href="#"><img src="assets/images/logo/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse ms-5 navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav gap-4 me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item fw-bold" href="#">- Home</a></li>
+                                <li>
+                                    <hr class="dropdown-divider border-light-subtle">
+                                </li>
+                                <li><a class="dropdown-item fw-bold" href="#">- Rooms</a></li>
+                                <li>
+                                    <hr class="dropdown-divider border-light-subtle">
+                                </li>
+                                <li><a class="dropdown-item fw-bold" href="#">- Single Rooms</a></li>
+                                <li>
+                                    <hr class="dropdown-divider border-light-subtle">
+                                </li>
+                                <li><a class="dropdown-item fw-bold" href="#">- About Us</a></li>
+                                <li>
+                                    <hr class="dropdown-divider border-light-subtle">
+                                </li>
+                                <li><a class="dropdown-item fw-bold" href="#">- Single Blog</a></li>
+                                <li>
+                                    <hr class="dropdown-divider border-light-subtle">
+                                </li>
+                                <li><a class="dropdown-item fw-bold" href="#">- Contact</a></li>
+                                <li>
+                                    <hr class="dropdown-divider border-light-subtle">
+                                </li>
+                                <li><a class="dropdown-item fw-bold" href="#">- Dropdown</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                    </ul>
+                    <button class="btn text-white fw-bold book rounded-0 px-5 py-3">Book Now <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <section class="hero-section d-flex justify-content-center align-items-center">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2500">
+                    <img src="assets/images/hero/hero-1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="assets/images/hero/hero-2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="assets/images/hero/hero-3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <div
+            class="hero-cont d-flex align-items-center justify-content-center flex-column gap-3 position-absolute top-50 start-50 translate-middle-x w-100 z-2 align-items-center">
+            <span class="fs-6 fw-bold text-center text-uppercase text-white">Hotels & Resort</span>
+            <h1 style="font-size: 70px;" class="text-white text-center">Welcome to Roberto</h1>
+            <button class="btn rounded-0 px-5 py-3 text-white">Discover Now</button>
+        </div>
+    </section>
+
+    <section
+        class="booking-section py-5 d-flex justify-content-center align-items-center gap-4 mx-auto w-75 z-3 px-4 bg-white flex-wrap">
+        <div class="check-in">
+            <h6 class="fw-bold">Check In</h6>
+            <input type="date" class="form-control rounded-1 small">
+        </div>
+        <div class="check-out">
+            <h6 class="fw-bold">Check Out</h6>
+            <input type="date" class="form-control rounded-1 small">
+        </div>
+        <div class="room">
+            <h6 class="fw-bold">Room</h6>
+            <select name="room" id="room-select" class="form-control rounded-1 small">
+                <option value="default" selected>01</option>
+                <option value="single">02</option>
+                <option value="double">03</option>
+                <option value="suite">04</option>
+                <option value="family">05</option>
+                <option value="family">06</option>
+            </select>
+        </div>
+        <div class="adult">
+            <h6 class="fw-bold">Adult</h6>
+            <select name="room" id="room-select" class="form-control rounded-1 small">
+                <option value="default" selected>01</option>
+                <option value="single">02</option>
+                <option value="double">03</option>
+                <option value="suite">04</option>
+                <option value="family">05</option>
+                <option value="family">06</option>
+            </select>
+        </div>
+        <div class="children">
+            <h6 class="fw-bold">Children</h6>
+            <select name="room" id="room-select" class="form-control rounded-1 small">
+                <option value="default" selected>01</option>
+                <option value="single">02</option>
+                <option value="double">03</option>
+                <option value="suite">04</option>
+                <option value="family">05</option>
+                <option value="family">06</option>
+            </select>
+        </div>
+        <button class="btn text-white small rounded-0 px-5 py-2">Check Availibility</button>
+    </section>
+
+    <section class="about-section container row flex-wrap mx-auto d-flex">
+        <div class="about-cont col-6 d-flex flex-column gap-4">
+            <span class="text-uppercase fw-bold" style="color: var(--primary);">About Us</span>
+            <h2 class="fw-bold">Welcome to <br>
+                Roberto Hotel Luxury</h2>
+            <p class="fs-5">With over 340 hotels worldwide, NH Hotel Group offers a wide variety of hotels catering for
+                a perfect
+                stay no matter where your destination.
+            </p>
+            <span>Manager: <span style="color: var(--primary);">Michen Taylor</span></span>
+            <img src="assets/images/about/signature.png" style="width: 150px; height: 40px;" alt="">
+        </div>
+        <div class="about-img col-6 d-flex flex-wrap gap-2">
+            <div class="about-left-img">
+                <div class="about-left-top-img">
+                    <img src="assets/images/about/about-1.png" class="rounded-2" alt="">
+                </div>
+                <div class="about-left-bottom-img mt-2">
+                    <img src="assets/images/about/about-2.png" class="rounded-2" alt="">
+                </div>
+            </div>
+            <div class="about-right-img">
+                <img src="assets/images/about/about-3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="service-items d-flex container justify-content-center align-items-center gap-5 mx-auto py-5 flex-wrap text-center">
+        <div class="service-item d-flex flex-column gap-3 px-4 py-4 justify-content-center align-items-center">
+            <img src="assets/images/service/service-1.png" alt="">
+            <h6 class="fw-bold">Transportion</h6>
+        </div>
+        <div class="service-item d-flex flex-column gap-3 px-4 py-4 justify-content-center align-items-center">
+            <img src="assets/images/service/service-2.png" alt="">
+            <h6 class="fw-bold">Reiseservice</h6>
+        </div>
+        <div class="service-item d-flex flex-column gap-3 px-4 py-4 justify-content-center align-items-center">
+            <img src="assets/images/service/service-3.png" alt="">
+            <h6 class="fw-bold">Spa Relaxtion</h6>
+        </div>
+        <div class="service-item d-flex flex-column gap-3 px-4 py-4 justify-content-center align-items-center">
+            <img src="assets/images/service/service-4.png" alt="">
+            <h6 class="fw-bold">Restaurant</h6>
+        </div>
+        <div class="service-item d-flex flex-column gap-3 px-4 py-4 justify-content-center align-items-center">
+            <img src="assets/images/service/service-5.png" alt="">
+            <h6 class="fw-bold">Bar & Drink</h6>
+        </div>
+    </section>
+
+    <section id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2500">
+                <div class="room-container z-2">
+                    <div class="room-image">
+                        <img src="assets/images/plans/plan-1.png" alt="Best King Room">
+                    </div>
+                    <div class="room-details">
+                        <h1>Best King Room</h1>
+                        <p class="price"><span>125$</span> / Day</p>
+                        <ul class="ps-0">
+                            <li><i class="fa-solid fa-check"></i> <strong>Size</strong> : 30 ft</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Capacity</strong> : Max person 5</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Bed</strong> : King Beds</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Services</strong> : Wifi, Television, Bathroom
+                            </li>
+                        </ul>
+                        <button class="btn z-3 rounded-0 small px-4 text-white py-2">View Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <div class="room-container z-2">
+                    <div class="room-image">
+                        <img src="assets/images/plans/plan-1.png" alt="Best King Room">
+                    </div>
+                    <div class="room-details">
+                        <h1>Best King Room</h1>
+                        <p class="price"><span>125$</span> / Day</p>
+                        <ul class="ps-0">
+                            <li><i class="fa-solid fa-check"></i> <strong>Size</strong> : 30 ft</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Capacity</strong> : Max person 5</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Bed</strong> : King Beds</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Services</strong> : Wifi, Television, Bathroom
+                            </li>
+                        </ul>
+                        <button class="btn z-3 rounded-0 small px-4 text-white py-2">View Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <div class="room-container z-2">
+                    <div class="room-image">
+                        <img src="assets/images/plans/plan-1.png" alt="Best King Room">
+                    </div>
+                    <div class="room-details">
+                        <h1>Best King Room</h1>
+                        <p class="price"><span>125$</span> / Day</p>
+                        <ul class="ps-0">
+                            <li><i class="fa-solid fa-check"></i> <strong>Size</strong> : 30 ft</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Capacity</strong> : Max person 5</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Bed</strong> : King Beds</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Services</strong> : Wifi, Television, Bathroom
+                            </li>
+                        </ul>
+                        <button class="btn z-3 rounded-0 small px-4 text-white py-2">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <div class="row g-0">
+            <div class="col-md-5 testimonial-image">
+                <img src="assets/images/testinomial/background.png" alt="Guest Photo">
+            </div>
+            <div class="col-md-7 d-flex align-items-center">
+                <div class="testimonial-content">
+                    <p class="subtitle">Testimonials</p>
+                    <h2>Our Guests Love Us</h2>
+                    <p>“This can be achieved by applying search engine optimization or popularly known as SEO.
+                        This is a marketing strategy which increases the quality and quantity of traffic flow
+                        to a particular website via search engines.”</p>
+
+                    <div class="stars">★★★★★</div>
+
+                    <p class="author">
+                        <strong>Robert Downey</strong> - <span>CEO Deercreative</span>
+                    </p>
+
+                    <div class="dots">
+                        <span class="dot active" style="background-color: var(--primary);"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-slide d-flex justify-content-center align-items-center mx-auto flex-wrap">
+        <div class="project-slide d-flex flex-column justify-content-end align-items-end rounded-0"
+            style="background-image: url(assets/images/project/project-1.png); background-position: center; background-size: cover;">
+            <div class="type py-4 w-100" style=" background-color: rgba(0, 0, 0, 0.3);">
+                <span class="text-white ps-3">Entertainment</span>
+                <h4 class="ps-3 text-white fw-bold">Racing Bike</h4>
+            </div>
+            <div class="project-slide-cont">
+                <div class="upper-project-slide-cont">
+                    <div class=" text-white w-100 px-3 py-3 gap-3 d-flex flex-column">
+                        <span class="text-white">Entertainment</span>
+                        <h5 class="text-white fw-bold">Racing Bike</h5>
+                        <p>I focus a lot on helping the first time or inexperienced traveler head out prepared and
+                            confident...</p>
+                    </div>
+                </div>
+                <div class="discover text-white py-4 px-4 w-100">
+                    Discover Now <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="project-slide d-flex flex-column justify-content-end align-items-end rounded-0"
+            style="background-image: url(assets/images/project/project-2.png); background-position: center; background-size: cover;">
+            <div class="type py-4 w-100" style=" background-color: rgba(0, 0, 0, 0.3);">
+                <span class="text-white ps-3">Entertainment</span>
+                <h4 class="ps-3 text-white fw-bold">Racing Bike</h4>
+            </div>
+            <div class="project-slide-cont">
+                <div class="upper-project-slide-cont">
+                    <div class=" text-white w-100 px-3 py-3 gap-3 d-flex flex-column">
+                        <span class="text-white">Entertainment</span>
+                        <h5 class="text-white fw-bold">Racing Bike</h5>
+                        <p>I focus a lot on helping the first time or inexperienced traveler head out prepared and
+                            confident...</p>
+                    </div>
+                </div>
+                <div class="discover text-white py-4 px-4 w-100">
+                    Discover Now <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="project-slide d-flex flex-column justify-content-end align-items-end rounded-0"
+            style="background-image: url(assets/images/project/project-3.png); background-position: center; background-size: cover;">
+            <div class="type py-4 w-100" style=" background-color: rgba(0, 0, 0, 0.3);">
+                <span class="text-white ps-3">Entertainment</span>
+                <h4 class="ps-3 text-white fw-bold">Racing Bike</h4>
+            </div>
+            <div class="project-slide-cont">
+                <div class="upper-project-slide-cont">
+                    <div class=" text-white w-100 px-3 py-3 gap-3 d-flex flex-column">
+                        <span class="text-white">Entertainment</span>
+                        <h5 class="text-white fw-bold">Racing Bike</h5>
+                        <p>I focus a lot on helping the first time or inexperienced traveler head out prepared and
+                            confident...</p>
+                    </div>
+                </div>
+                <div class="discover text-white py-4 px-4 w-100">
+                    Discover Now <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section py-5">
+        <div class="blog-head text-center">
+            <span class="text-uppercase fs-5" style="color: var(--primary);">Our Blog</span>
+            <h1 class="fw-bold">Latest News & Event</h1>
+        </div>
+        <div class="blog-body flex-wrap d-flex gap-4 justify-content-center align-items-center mt-4">
+            <div class="card rounded-0 border-0" style="width: 23rem;">
+                <img src="assets/images/blog/blog-1.png" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                    <div class="date d-flex justify-content-between fw-bold">
+                        <div class="card-subtitle">Jan 02, 2019</div>
+                        <span style="color: var(--primary);">Event</span>
+                    </div>
+                    <h5 class="card-title fw-bold mt-3">Learn How To Motivate Yourself</h5>
+                    <p class="card-text">How many free autoresponders have you tried? And how many emails did you get
+                        through using them?</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="card rounded-0 border-0" style="width: 23rem;">
+                <img src="assets/images/blog/blog-2.png" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                    <div class="date d-flex justify-content-between fw-bold">
+                        <div class="card-subtitle">Jan 02, 2019</div>
+                        <span style="color: var(--primary);">Event</span>
+                    </div>
+                    <h5 class="card-title fw-bold mt-3">Learn How To Motivate Yourself</h5>
+                    <p class="card-text">How many free autoresponders have you tried? And how many emails did you get
+                        through using them?</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="card rounded-0 border-0" style="width: 23rem;">
+                <img src="assets/images/blog/blog-3.png" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                    <div class="date d-flex justify-content-between fw-bold">
+                        <div class="card-subtitle">Jan 02, 2019</div>
+                        <span style="color: var(--primary);">Event</span>
+                    </div>
+                    <h5 class="card-title fw-bold mt-3">Learn How To Motivate Yourself</h5>
+                    <p class="card-text">How many free autoresponders have you tried? And how many emails did you get
+                        through using them?</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="contact flex-wrap container d-flex align-items-center justify-content-between" style="background-image: url(assets/images/contact/contact.png);">
+        <div class="contact-details px-5 z-2 position-relative">
+            <h1 class="text-white">Contact us now!</h1>
+            <span class="fw-bold text-white">Contact (+12) 345-678-9999 to book directly or for advice</span>
+        </div>
+        <button class="btn position-relative mx-5 z-2 rounded-0 text-white px-5 py-2">Contact Now</button>
+    </div>
+
+    <section class="companies-section d-flex justify-content-center align-items-center gap-5 mx-auto py-5 flex-wrap">
+        <img src="assets/images/companies/company-1.png" alt="">
+        <img src="assets/images/companies/company-2.png" alt="">
+        <img src="assets/images/companies/company-3.png" alt="">
+        <img src="assets/images/companies/company-4.png" alt="">
+        <img src="assets/images/companies/company-5.png" alt="">
+    </section>
+
+    <footer class="bg-roberto-dark pt-5 mt-5">
+        <div class="container-fluid px-4 px-md-5 px-lg-0 py-5" style="max-width: 1200px; margin: 0 auto;">
+            <div class="row pb-4 mb-4 border-bottom border-secondary border-opacity-50">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="d-flex align-items-center mb-4 roberto-logo">
+                        <img src="assets/images/footer/footer.png" alt="">
+                    </div>
+
+                    <p class="h3 text-roberto-light mb-3 fw-bold" style="color: var(--primary);">+12 345-678-9999</p>
+                    <p class="text-roberto-muted mb-2">Info.colorlib@gmail.com</p>
+                    <p class="text-roberto-muted">856 Cordia Extension Apt. 356, Lake Deangelborough, South Africa</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h3 class="h5 text-roberto-light mb-4">Our Blog</h3>
+                    <div class="d-grid gap-3">
+                        <a href="#" class="text-white text-roberto-light text-decoration-none"
+                            style="transition: color 0.2s;">
+                            <p class="mb-0 fs-6">Freelance Design Tricks How</p>
+                            <small class="text-roberto-muted">
+                                <i class="far fa-clock me-2"></i>Jan 02, 2019
+                            </small>
+                        </a>
+                        <a href="#" class="text-white text-roberto-light text-decoration-none"
+                            style="transition: color 0.2s;">
+                            <p class="mb-0 fs-6">Free Advertising For Your Online</p>
+                            <small class="text-roberto-muted">
+                                <i class="far fa-clock me-2"></i>Jan 02, 2019
+                            </small>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h3 class="h5 text-roberto-light mb-4">Links</h3>
+                    <ul class="list-unstyled d-grid gap-2">
+                        <li class="footer-link-item">
+                            <a href="#" class="d-flex text-secondary text-decoration-none align-items-center">
+                                <i class="fas fa-angle-right"></i> About Us
+                            </a>
+                        </li>
+                        <li class="footer-link-item">
+                            <a href="#" class="d-flex text-secondary text-decoration-none align-items-center">
+                                <i class="fas fa-angle-right"></i> Our Room
+                            </a>
+                        </li>
+                        <li class="footer-link-item">
+                            <a href="#" class="d-flex text-secondary text-decoration-none align-items-center">
+                                <i class="fas fa-angle-right"></i> Career
+                            </a>
+                        </li>
+                        <li class="footer-link-item">
+                            <a href="#" class="d-flex text-secondary text-decoration-none align-items-center">
+                                <i class="fas fa-angle-right"></i> FAQs
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="h5 text-roberto-light mb-4">Subscribe Newsletter</h3>
+                    <p class="text-roberto-muted mb-4">Subscribe our newsletter ger get notification about new updates.
+                    </p>
+
+                    <form class="position-relative">
+                        <input type="email" placeholder="Enter your email..." aria-label="Enter your email"
+                            class="form-control rounded-pill newsletter-input py-3">
+
+                        <button type="submit" aria-label="Subscribe" class="newsletter-btn">
+                            <i class="fas fa-paper-plane fs-5"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="row pt-3">
+                <div
+                    class="col-12 d-flex flex-column flex-md-row justify-content-between align-items-center text-roberto-muted small">
+
+                    <div class="text-center text-secondary text-md-start mb-3 mb-md-0">
+                        <p class="mb-0">
+                            Copyright &copy;2025 All rights reserved | This template is made with
+                            <i class="fas fa-heart mx-1"></i> by
+                            <a href="https://colorlib.com" target="_blank"
+                                class="text-secondary text-decoration-none">Colorlib</a>
+                        </p>
+                    </div>
+
+                    <div class="d-flex gap-3">
+                        <a href="#" aria-label="Facebook" class="text-secondary small"><i
+                                class="fab fa-facebook-f fs-5"></i></a>
+                        <a href="#" aria-label="Twitter" class="text-secondary small"><i
+                                class="fab fa-twitter fs-5"></i></a>
+                        <a href="#" aria-label="Instagram" class="text-secondary small"><i
+                                class="fab fa-instagram fs-5"></i></a>
+                        <a href="#" aria-label="LinkedIn" class="text-secondary small"><i
+                                class="fab fa-linkedin-in fs-5"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
