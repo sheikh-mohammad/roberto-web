@@ -6,9 +6,13 @@
 
 **Roberto** is a static single-page website template for a luxury hotel/resort. It showcases hotel amenities, room bookings, testimonials, and contact information with a modern, responsive design.
 
+### Inspiration & Original Design
+
+This project is a clone of, and takes its main inspiration from, the [Roberto theme by Colorlib](https://preview.colorlib.com/theme/roberto/).
+
 ### Deployment
 
-- [GitHub URL](https://github.com/sheikh-mohammad/frontend-ui-projects/tree/main/roberto-web)
+- [GitHub Repository](https://github.com/sheikh-mohammad/roberto-web)
 - [Live URL](https://roberto-web.netlify.app/)
 
 ### Key Features
